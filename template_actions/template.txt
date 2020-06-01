@@ -1,0 +1,12 @@
+from tm_increment import *
+import time
+
+class template_action:
+    def pre_entry(self,values):
+        print("Pre Entry")
+
+    def post_entry(self,values):
+        print("Post Entry")
+
+    def post_create(self,values):
+        print("Post Create")
